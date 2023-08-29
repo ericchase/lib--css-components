@@ -2,28 +2,29 @@
 @layer button.base, button.pseudo, button.state;
 
 @layer button.base {
-  /* Remove Default Styles */
-  button {
-    background: none;
-    border: none;
-    outline: none;
-    padding: 0;
-    user-select: none;
-  }
-  button {
-    cursor: pointer;
+	/* Remove Default Styles */
+	button {
+		background: none;
+		border: none;
+		font-size: 1rem; /* 16px */
+		outline: none;
+		padding: 0;
+		user-select: none;
+	}
+	button {
+		cursor: pointer;
 
-    min-block-size: max-content;
-    min-inline-size: max-content;
+		min-block-size: max-content;
+		min-inline-size: max-content;
 
-    background-color: white;
-    color: black;
+		background-color: white;
+		color: black;
 
-    border-color: lightgray;
-    border-radius: 6px; /* 0.375em */
-    border-style: solid;
-    border-width: 2px; /* 0.125em */
+		border-color: lightgray;
+		border-radius: 0.375em; /* 6px */
+		border-style: solid;
+		border-width: 0.125em; /* 2px */
 
-    padding: 2px; /* 0.125em */
-  }
+		padding: 0.125em; /* 2px */
+	}
 }
