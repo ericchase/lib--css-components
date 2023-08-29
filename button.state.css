@@ -1,0 +1,13 @@
+@layer button.state.base, button.state.pseudo;
+
+@layer button.state.base {
+  button.state.on {
+    border-color: black;
+  }
+}
+
+@layer button.state.pseudo {
+  button.state:active {
+    border-color: gray;
+  }
+}
