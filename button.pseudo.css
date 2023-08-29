@@ -1,8 +1,8 @@
 @layer button.pseudo {
-	button:is(:focus-visible, :hover):not(:active) {
-		border-color: gray;
-	}
-	button:active {
-		border-color: black;
-	}
+  button:is(:focus-visible, :hover):not(:active) {
+    border-color: gray;
+  }
+  button:active {
+    border-color: black;
+  }
 }
