@@ -1,0 +1,17 @@
+@layer button;
+@layer button.base, button.state;
+
+@layer button.base {
+  button.toggle.state {
+    border-color: black;
+  }
+}
+@layer button.state {
+  button.toggle:focus-visible,
+  button.toggle:hover {
+    border-color: gray;
+  }
+  button.toggle:active {
+    border-color: gray;
+  }
+}

@@ -1,0 +1,26 @@
+@layer button;
+@layer button.base, button.state;
+
+@layer button.base {
+  button {
+    background-color: white;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 0.125em; /* 2px */
+    border-radius: 0.375em; /* 6px */
+    color: black;
+    cursor: pointer;
+    min-block-size: max-content;
+    min-inline-size: max-content;
+    padding: 0.125em; /* 2px */
+  }
+}
+@layer button.state {
+  button:focus-visible,
+  button:hover {
+    border-color: gray;
+  }
+  button:active {
+    border-color: black;
+  }
+}

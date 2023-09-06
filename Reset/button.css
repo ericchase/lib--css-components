@@ -1,0 +1,23 @@
+@layer button;
+@layer button.base, button.state;
+
+@layer button.base {
+  button {
+    background: none;
+    border: none;
+    border-radius: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1rem; /* 16px */
+    outline: none;
+    padding: 0;
+    user-select: none;
+  }
+}
+@layer button.state {
+  button:focus-visible,
+  button:hover {
+  }
+  button:active {
+  }
+}
